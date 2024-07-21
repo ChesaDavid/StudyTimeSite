@@ -1,0 +1,154 @@
+nav a{
+    text-decoration: none;
+    margin-left: 13px;
+    margin-right: 30px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px; 
+    padding-bottom: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+
+
+}
+nav a:hover{
+    background-color: rgb(247, 247, 247);
+    transform: scale(1.3);
+    color: black;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px; 
+    transition: background-color 0.5s, transform 0.5s, color 0.5s;
+    box-shadow: 0px 5px 10px rgb(87, 82, 82);
+
+}
+header{
+    text-align: center;
+    z-index: 1;
+    font-size: 80px;
+    font-weight: bold;
+    padding-top: 150px;
+}
+nav{
+    gap: 50px;
+}
+#icon{
+    width: 50px;
+    height: 50px;
+    padding-left: 40px;
+}
+.up{
+    display: flex;
+    left: 0%;
+    right: 0%;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white(247, 247, 247);
+    position: absolute;
+    box-shadow: 0px 5px 10px rgb(122, 120, 120);
+
+}
+.container{
+    margin-top: 140px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 20px;
+    
+}
+#download{
+    margin-top: 20px;
+    background-color: rgb(152, 152, 219);
+    color: black;
+    font-size: 31px;
+    font-weight: bold;
+    border-radius:20%;
+}
+#download:hover{
+    background-color: rgb(102, 102, 165);
+    color: white;
+    transform: scale(1.1);
+    transition: background-color 0.5s, transform 0.5s;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.guest{
+    text-align: center;
+    margin-top: 50px;
+    box-shadow: 0px 5px 10px  rgb(42, 56, 42);
+    padding : 25px;
+}
+.guest p{
+    font-size: 22px;
+}
+.guest span a:hover {
+    color: rgb(179, 117, 92);
+    text-decoration: underline;
+    transition: background-color 0.5s, transform 0.5s, color 0.5s;
+}
+.choices{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.choice{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+.choice:hover{
+    transform: scale(1.04);
+    transition: background-color 0.5s, transform 0.5s;
+}
+
+@media screen and (max-width: 900px) {
+    .choices{
+        flex-direction: column;
+    }
+    .choice{
+        margin-bottom: 20px;
+    }
+    nav a{
+        font-size: 25px;
+    }
+    header{
+        font-size: 60px;
+    }
+    .container{
+        padding: 10px;
+    }
+    #download{
+        font-size: 28px;
+    }
+    .guest p{
+        font-size: 18px;
+    }
+    .guest span a{
+        font-size: 16px;
+    }
+    .choices{
+        margin-top: 10px;
+    }
+}
+/* Make code for the footer design */
+
+footer{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    margin-top: 10px;
+}
+.social-media img{
+    height: 50px;
+    width: 50px;
+}

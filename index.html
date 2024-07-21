@@ -4,8 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StudyTime</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <div class="up">
+        <svg id="icon" width="114" height="114" viewBox="0 0 114 114" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="113" height="113" fill="#D9D9D9"/>
+            <circle cx="56.5" cy="56.5" r="56.5" fill="#808080"/>
+            <line x1="0.271317" y1="39.58" x2="113.271" y2="112.58" stroke="black"/>
+            <line x1="112.629" y1="113.335" x2="46.6291" y2="40.3353" stroke="#FF0000"/>
+            </svg>
+            
+        <nav>
+            <a href="">LogIn</a>
+            <a href="">Register</a>
+        </nav>
+    </div>
+    <header>StudyTime</header>
+    <main>
+        <div class="container">
+            <h1>Hello World!</h1>
+            <p>This is a simple study time application. <br>  That hopes to provide students with the best tools requierd for them to remain focuse on <br>
+                <ul>
+                    <li>Staying focused</li>
+                    <li>Improving concentration</li>
+                    <li>Maintaining a healthy work-life balance</li>
+                    <li>Learning new skills</li>
+                </ul> 
+                <br>
+                With our website you can set a timer for a specific topic and it will count down for you. <br>
+                 It also keeps track of your progress and provides statistics on your study habits.
+                <br>
+            And if you are an enjoier of productivity you can download our phone app <br><br>
+        <button id="download">Download</button></p>
+        </div>
+        <br><br><br><br><br><br><br>
+        <div class="guest">
+            <h1>Welcome to those without an account</h1>
+            <p style="color: red;">Where are some choices </p> <p>
+            if you want more <span><a href="">LogIn</a></span> or <span><a href="">Register</a></span></p>
+            
+            <div class="choices">
+                <a href="">
+                    <div class="choice">
+                        <img src="./media/clock-svgrepo-com.svg " alt="Clock" width="400px" height="400px">
+                        <h2>Set a timer</h2>
+                        <p>Set a timer for studying.</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="choice">
+                        <img src="./media/to-do-list-svgrepo-com.svg" alt="Stats" width="400px" height="400px">
+                        <h2>Temorary ToDo list</h2>
+                        <p>See what you need to do.</p>
+                    </div>
+                </a>
+                
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- Make a footer that is a connect section -->
+         <h2>Connect to us</h2>
+         <p>Follow us on social media</p>
+         <div class="social-media">
+             <a href="#"><img src="./media/facebook.svg" alt="Facebook"></a>
+             <a href="#"><img src="./media/linkedin.svg" alt="LinkedIn"></a>
+             <a href="#"><img src="./media/instagram.svg" alt="Instagram"></a>
+             <a href="#"><img src="./media/github.svg" alt="GitHub"></a>
+             <br><br><span>Write to us on</span><br>
+             <a href=""><img src="./media/email.svg" alt="Email"></a>
+         </div>
+         <p>�� 2021 StudyTime. All rights reserved.</p>
+         <div class="terms-and-conditions">
+             <a href="#">Terms & Conditions</a>
+             <a href="#">Privacy Policy</a>
+         </div>
+     </footer>
+    </footer>
+    <button onclick="upFunction()" id="btn" style="display: none;">Up</button>
+    <script src="./script.js"></script>
 </body>
 </html>
