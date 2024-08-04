@@ -66,7 +66,7 @@ nav{
     background-color: rgb(152, 152, 219);
     color: black;
     font-size: 31px;
-    font-weight: bold;
+    font-weight: bold;  
     border-radius:20%;
 }
 #download:hover{
@@ -109,7 +109,7 @@ a{
     transition: background-color 0.5s, transform 0.5s;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {  
     .choices{
         flex-direction: column;
     }
@@ -140,6 +140,7 @@ a{
 }
 /* Make code for the footer design */
 
+
 footer{
     background-color: rgb(255, 255, 255);
     padding: 20px;
@@ -147,6 +148,7 @@ footer{
     bottom: 0;
     width: 100%;
     margin-top: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 .social-media img{
     height: 50px;
